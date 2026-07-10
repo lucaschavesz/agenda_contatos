@@ -17,9 +17,6 @@ Aplicação desenvolvida em **Python** utilizando **SQLite** para gerenciar cont
 * Tkinter
 
 ## ▶️ Como executar
-1. Criar a tabela "contatos" executando o arquivo querys.py;
-2. Executar:
-
 ```bash
 python interface.py
 ```
