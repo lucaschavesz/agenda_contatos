@@ -1,6 +1,6 @@
 # 📒 Agenda de Contatos
 
-Aplicação desenvolvida em **Python** utilizando **SQLite** para gerenciar contatos por meio de operações CRUD.
+Aplicação desenvolvida em **Python** utilizando **SQLite** para gerenciar contatos por meio de operações CRUD. Interface construída através do **Tkinter**.
 
 ## 🚀 Funcionalidades
 
@@ -14,14 +14,15 @@ Aplicação desenvolvida em **Python** utilizando **SQLite** para gerenciar cont
 
 * Python 3
 * SQLite3
+* Tkinter
 
 ## ▶️ Como executar
 
 ```bash
-python main.py
+python interface.py
 ```
 
 ## 📚 Objetivo
 
-Praticar o uso de Python com banco de dados SQLite, implementando um sistema CRUD em uma aplicação de terminal.
+Praticar o uso de Python com banco de dados SQLite, implementando um sistema CRUD em uma interface Tkinter.
 
