@@ -1,6 +1,5 @@
 import sqlite3
 import tkinter as tk
-import time
 from tkinter import ttk
 from tkinter import messagebox
 
