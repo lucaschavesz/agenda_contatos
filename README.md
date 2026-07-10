@@ -18,7 +18,7 @@ Aplicação desenvolvida em **Python** utilizando **SQLite** para gerenciar cont
 
 ## ▶️ Como executar
 1. Criar a tabela "contatos" executando o arquivo querys.py;
-2. Executar
+2. Executar:
 
 ```bash
 python interface.py
