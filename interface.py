@@ -1,8 +1,8 @@
 import tkinter as tk 
-from funcoes import add_contato, lista_contatos, busca_contato, exclui_contato, atualiza_contato
+from functions.funcoes import add_contato, lista_contatos, busca_contato, exclui_contato, atualiza_contato
 import sqlite3
 
-conexao = sqlite3.connect('dados.db')
+conexao = sqlite3.connect('data/dados.db')
 cursor = conexao.cursor()
 
 #cria tabela contatos
@@ -27,9 +27,6 @@ tk.Button(janela, text='Excluir contato', command=exclui_contato).pack()
 tk.Button(janela, text='Listar contatos', command=lista_contatos).pack()
 tk.Button(janela, text='Buscar contato', command=busca_contato).pack()
 tk.Button(janela, text='Atualizar contato', command=atualiza_contato).pack()
-
-
-
 
 janela.mainloop()
 conexao.close()

@@ -25,3 +25,5 @@ python interface.py
 
 Praticar o uso de Python com banco de dados SQLite, implementando um sistema CRUD em uma interface Tkinter.
 
+## Interface gráfica
+![Interface Gráfica da Agenda](img\interface.png)
